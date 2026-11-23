@@ -29,8 +29,7 @@ dependencies:
   just_audio: ^0.9.44
   audio_session: ^0.1.31
 
-  # --- حساب مواقيت الصلاة وجدولة الأذان في الخلفية ---
-  awqat: ^0.0.4
+  # --- جدولة الأذان والإشعارات في الخلفية ---
   android_alarm_manager_plus: ^4.0.5
   flutter_local_notifications: ^18.0.1
   timezone: ^0.9.4
@@ -58,11 +57,6 @@ dev_dependencies:
   # --- أداة توليد أيقونات التطبيق لجميع الكثافات تلقائياً ---
   flutter_launcher_icons: ^0.13.1
 
-# ==============================================================================
-# إعدادات توليد أيقونة التطبيق (flutter_launcher_icons)
-# لتوليد الأيقونات بعد وضع صورتك في assets/icon/app_icon.png، نفذ:
-# flutter pub run flutter_launcher_icons
-# ==============================================================================
 flutter_launcher_icons:
   android: "ic_launcher"
   ios: false
